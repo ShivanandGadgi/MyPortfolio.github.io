@@ -11,6 +11,12 @@ html
 	scroll-behavior: smooth;
 }
 
+.home .home-content .motivation
+{
+		font-size: 20px;
+		color: crimson;
+}
+
 .max_width
 {
 	max-width: 1300px;
@@ -452,27 +458,27 @@ section .title:after
 
 .skills .skills-content .right .html:before
 {
-	width: 80%;
+	width: 99%;
 }
 
 .skills .skills-content .right .css:before
 {
-	width: 90%;
+	width: 95%;
 }
 
 .skills .skills-content .right .js:before
 {
-	width: 95%;
+	width: 87%;
 }
 
 .skills .skills-content .right .php:before
 {
-	width: 85%;
+	width: 90%;
 }
 
 .skills .skills-content .right .mysql:before
 {
-	width: 96%;
+	width: 95%;
 }
 
 .teams .title:after
@@ -855,6 +861,7 @@ footer span a:hover
 	.skills .skills-content .column
 	{
 		width: 100%;
+		margin-bottom: 5px;
 	}
 }
 
@@ -868,6 +875,12 @@ footer span a:hover
 	.home .home-content .text-3
 	{
 		font-size: 27px;
+	}
+
+	.home .home-content .motivation
+	{
+		font-size: 20px;
+		color: crimson;
 	}
 
 	.about .about-content .left img
